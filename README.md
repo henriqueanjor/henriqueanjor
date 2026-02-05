@@ -1,16 +1,45 @@
-## Hi there 👋
+<h1 align="center">Oi, eu sou Luiz Henrique 👋</h1>
 
-<!--
-**henriqueanjor/henriqueanjor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+🎓 Estudante de Ciência da Computação <br>
+💻 Apaixonado por Java, programação e desenvolvimento Web
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 Linguagens e Tecnologias
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,js,html,css,git,github" />
+</p>
+
+---
+
+### 🚀 Sobre mim
+- ☕ Foco em **Java**, POO, ciclo de vida de objetos e **funções lambda**
+- 🌐 Interesse em **desenvolvimento Web**
+- 🎯 Buscando **estágio em TI** para evoluir na prática
+- 📚 Sempre aprendendo e melhorando código
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=henriqueanjor&show_icons=true&theme=dark"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriqueanjor&layout=compact&theme=dark"/>
+</p>
+
+---
+
+### 📫 Contato
+<p align="center">
+  <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/luiz-henrique-409604225/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:ldl.anjos228.lha@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <i>"Codando, aprendendo e evoluindo um pouco todos os dias."</i> 🚀
+</p>
