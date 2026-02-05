@@ -22,14 +22,6 @@
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=henriqueanjor&show_icons=true&theme=dark"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriqueanjor&layout=compact&theme=dark"/>
-</p>
-
----
-
 ### 📫 Contato
 <p align="center">
   <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/luiz-henrique-409604225/">
