@@ -15,10 +15,10 @@
 ---
 
 ### 🚀 Sobre mim
-- ☕ Foco em Javascript, JAVA, C++, ciclo de vida de objetos e **funções lambda**
-- 🌐 Interesse em **desenvolvimento Web**
-- 🎯 Buscando **estágio em TI** para evoluir na prática
-- 📚 Sempre aprendendo e melhorando código
+-  Desenvolvendo projetos em Javascript, JAVA, C++, ciclo de vida de objetos e funções lambda
+-  Foco em desenvolvimento Web
+-  Buscando **estágio em TI** para evoluir na prática
+-  📚 Sempre aprendendo e melhorando código
 
 ---
 
