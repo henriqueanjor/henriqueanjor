@@ -1,30 +1,100 @@
-<h1 align="center">Oi, eu sou Luiz Henrique 👋</h1>
+<h1 align="center">👋 Oi, eu sou Luiz Henrique</h1>
 
 <p align="center">
-🎓 Estudante de Ciência da Computação <br>
-💻 Apaixonado por Java, programação e desenvolvimento Web
+  💻 Estudante de Ciência da Computação • 4º período <br>
+  🚀 Focado em Backend • Automação • Sistemas Web • Banco de Dados
 </p>
 
 ---
 
-### 🧠 Linguagens e Tecnologias
+## 📊 Estatísticas GitHub
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,js,html,css,git,github" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=SEU_USUARIO&theme=tokyonight"/>
 </p>
 
 ---
 
-### 🚀 Sobre mim
--  Desenvolvendo projetos em Javascript, JAVA, C++, ciclo de vida de objetos e funções lambda
--  Foco em desenvolvimento Web
--  Buscando **estágio em TI** para evoluir na prática
--  📚 Sempre aprendendo e melhorando código
+## 🧠 Stack Tecnológica
+
+### 💻 Linguagens
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,js,html,css,sql" />
+</p>
+
+### 🛠️ Ferramentas e Tecnologias
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,mysql,linux" />
+</p>
+
+### 📦 Backend & Banco de Dados
+<p align="center">
+  <img src="https://img.shields.io/badge/API_REST-000?style=for-the-badge&logo=fastapi"/>
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white"/>
+</p>
+
+### 🤖 Em aprendizado
+<p align="center">
+  <img src="https://img.shields.io/badge/Integração_com_IA-412991?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Automação_de_Processos-0A66C2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SaaS_Architecture-111?style=for-the-badge"/>
+</p>
 
 ---
 
-### 📫 Contato
+## 💼 Projetos em Destaque
+
+### 🧾 Sistema de Controle Financeiro Empresarial (Em desenvolvimento)
+Aplicação web para organização financeira de pequenas empresas.
+
+✔ Cadastro de receitas e despesas  
+✔ Relatórios automáticos  
+✔ Dashboard com gráficos  
+✔ Banco de dados MySQL  
+✔ Backend Python  
+✔ Estrutura preparada para SaaS  
+
+---
+
+### 🛒 Sistema de Loja com CRUD Completo
+Sistema de gerenciamento de produtos com banco de dados.
+
+✔ Cadastro, edição e exclusão de produtos  
+✔ Persistência em banco MySQL  
+✔ Interface funcional  
+✔ Arquitetura organizada  
+
+Tecnologias: Java • MySQL • XAMPP  
+
+---
+
+### 👥 Sistema CRUD Acadêmico (Projeto em equipe)
+Sistema para gerenciamento de usuários com persistência em banco.
+
+✔ Operações CRUD completas  
+✔ Integração com banco de dados  
+✔ Versionamento com Git  
+✔ Desenvolvimento colaborativo  
+
+---
+
+## 🔬 Projetos em Desenvolvimento
+
+🚀 API REST para sistema empresarial  
+🚀 Sistema web com autenticação de usuários  
+🚀 Dashboard com análise de dados  
+🚀 Integração de IA para análise financeira  
+
+---
+
+## 📫 Contato
 <p align="center">
-  <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/luiz-henrique-409604225/">
+  <a href="https://www.linkedin.com/in/luiz-henrique-409604225/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:ldl.anjos228.lha@gmail.com">
@@ -32,6 +102,8 @@
   </a>
 </p>
 
+---
+
 <p align="center">
-  <i>"Codando, aprendendo e evoluindo um pouco todos os dias."</i> 🚀
+  <i>Transformando problemas reais em soluções com código.</i> 🚀
 </p>
