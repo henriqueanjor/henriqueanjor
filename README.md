@@ -50,6 +50,7 @@
 ## 💼 Projetos em Destaque
 
 ### 🧾 Sistema de Controle Financeiro Empresarial (Em desenvolvimento)
+PROJETO PESSOAL FULLSTACK
 Aplicação web para organização financeira de pequenas empresas.
 
 ✔ Cadastro de receitas e despesas  
@@ -69,17 +70,7 @@ Sistema de gerenciamento de produtos com banco de dados.
 ✔ Interface funcional  
 ✔ Arquitetura organizada  
 
-Tecnologias: Java • MySQL • XAMPP  
-
----
-
-### 👥 Sistema CRUD Acadêmico (Projeto em equipe)
-Sistema para gerenciamento de usuários com persistência em banco.
-
-✔ Operações CRUD completas  
-✔ Integração com banco de dados  
-✔ Versionamento com Git  
-✔ Desenvolvimento colaborativo  
+Tecnologias: Java • MySQL • XAMPP
 
 ---
 
