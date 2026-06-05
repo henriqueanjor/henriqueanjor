@@ -1,8 +1,8 @@
 <h1 align="center">Luiz Henrique dos Anjos Rodrigues</h1>
 
 <p align="center">
-  <b>Computer Science Student @ UNICAP • Recife, BR</b><br/>
-  Full Stack Dev in progress · AI-assisted development · Backend · Web Systems
+  <b>Estudante de Ciência da Computação · UNICAP · Recife, PE</b><br/>
+  Desenvolvimento Full Stack · IA aplicada ao desenvolvimento · Backend · Sistemas Web
 </p>
 
 <p align="center">
@@ -16,25 +16,25 @@
 
 ---
 
-## About me
+## Sobre mim
 
-I'm a Computer Science student focused on backend development, web systems, and AI-integrated workflows.
-I use **Claude daily** as a development partner — for code generation, architecture discussions, review, and refactoring.
-I believe building with AI is a core skill, not a shortcut.
+Sou estudante de Ciência da Computação com foco em desenvolvimento web, backend e IA aplicada.
+Uso **Claude diariamente** como par de desenvolvimento — geração de código, revisão de lógica, discussões de arquitetura e refatoração.
+Para mim, desenvolver com IA é uma habilidade técnica essencial, não um atalho.
 
-- 🎓 CS @ UNICAP — 4th semester, Recife, PE
-- 🤖 AI-first dev: Claude, GitHub Copilot, ChatGPT in daily workflow
-- 🔭 Currently deepening: **TypeScript · Next.js · Postgres · Prisma · Tailwind**
-- 💬 Ask me about: PHP backends, MySQL, REST APIs, Git workflows, computer vision in C++
+- 🎓 Ciência da Computação · UNICAP · 4º semestre · Recife, PE
+- 🤖 IA no fluxo de dev: Claude (diário), GitHub Copilot, ChatGPT
+- 🔭 Aprofundando agora: **TypeScript · Next.js · PostgreSQL · Prisma · Tailwind CSS**
+- 💬 Fala comigo sobre: PHP, MySQL, REST APIs, Git, visão computacional em C++
 - 📫 ldl.anjos228.lha@gmail.com
 
 ---
 
-## Tech Stack
+## Stack de Tecnologias
 
-### Languages
+### Linguagens
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,php,java,cpp,html,css,sql" />
+  <img src="https://skillicons.dev/icons?i=ts,js,php,java,cpp,html,css" />
 </p>
 
 ### Frontend
@@ -42,61 +42,72 @@ I believe building with AI is a core skill, not a shortcut.
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
 </p>
 
-### Backend & Database
+### Backend & Banco de Dados
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,mysql,postgres,prisma" />
 </p>
 
-### Tools & Infra
+### Ferramentas & Infra
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker" />
 </p>
 
 ---
 
-## Featured Projects
+## Projetos
 
-### 🐾 Pet Adoption Web System — [repo](https://github.com/henriqueanjor)
-> Full stack web system for registering and adopting pets, built collaboratively.
+### 🐾 Sistema Web de Adoção de Pets — [ver repositório](https://github.com/henriqueanjor)
+> Sistema web completo para cadastro e adoção de animais, desenvolvido em equipe com metodologia colaborativa.
 
-- Full CRUD with PHP backend and MySQL — authentication, sessions, access control by role
-- Backend–frontend integration with optimized SQL queries
-- Collaborative Git workflow: branches, pull requests, code review
-- **Stack:** PHP · MySQL · HTML · CSS · JavaScript · Git
+**O problema:** ONGs e protetores independentes não têm uma plataforma simples para divulgar animais disponíveis para adoção e receber solicitações de forma organizada.
 
----
+**O que foi construído:**
+- Cadastro completo de animais com fotos, descrição e status de disponibilidade
+- Sistema de autenticação com controle de acesso por perfil (administrador / adotante)
+- Operações CRUD completas com validação no backend
+- Formulário de solicitação de adoção integrado ao banco de dados
+- Fluxo colaborativo com Git — branches, pull requests e revisão de código em equipe
 
-### ⚡ GPU Visual Processing System — [repo](https://github.com/henriqueanjor)
-> High-performance visual analysis application with GPU acceleration.
-
-- CPU → GPU workload migration for parallel processing
-- Pipeline optimization and hardware integration
-- Focus on performance engineering and clean architecture
-- **Stack:** C++ · Computer Vision · GPU Processing
+**Stack:** PHP · MySQL · HTML · CSS · JavaScript · Git
 
 ---
 
-### 🌐 Personal Portfolio — *in progress*
-> Showcasing projects and tracking professional growth.
+### ⚡ Sistema de Processamento Visual com GPU — [ver repositório](https://github.com/henriqueanjor)
+> Aplicação de alto desempenho para análise visual em tempo real, com foco em processamento paralelo e otimização de pipeline.
 
-- **Stack:** HTML · CSS · JavaScript
+**O problema:** Processamento de imagens em CPU tem limitações claras de desempenho para análise visual em tempo real — latência alta e gargalos em pipelines com múltiplos frames.
+
+**O que foi construído:**
+- Migração de workload computacional de CPU para GPU, com ganho significativo de desempenho
+- Pipeline de processamento de imagem com paralelismo — múltiplos frames processados simultaneamente
+- Integração direta com hardware para leitura e saída de dados visuais
+- Otimização de memória e throughput com foco em arquitetura limpa e código reutilizável
+
+**Stack:** C++ · Visão Computacional · Processamento GPU · Programação Paralela
 
 ---
 
-## Currently Learning
+### 🌐 Portfólio Pessoal — *em desenvolvimento*
+> Site pessoal para documentação e apresentação de projetos.
 
-| Area | Technologies |
+**Stack:** HTML · CSS · JavaScript
+
+---
+
+## O que estou aprendendo agora
+
+| Área | Tecnologias |
 |------|-------------|
 | Full Stack | Next.js 14 (App Router) · TypeScript · React |
-| Database | PostgreSQL · Prisma · Drizzle ORM |
-| Auth & Validation | next-auth · JWT · Zod |
-| Integrations | Stripe · REST APIs · LLMs (Claude, OpenAI) |
-| Testing | Vitest · Playwright · Testing Library |
+| Banco de Dados | PostgreSQL · Prisma · Drizzle ORM |
+| Autenticação & Validação | next-auth · JWT · Zod |
+| Integrações | Stripe · REST APIs · LLMs (Claude, OpenAI) |
+| Testes | Vitest · Playwright · Testing Library |
 | Infra | Docker · GitHub Actions |
 
 ---
 
-## GitHub Stats
+## Estatísticas do GitHub
 
 <p align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=henriqueanjor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
@@ -109,5 +120,5 @@ I believe building with AI is a core skill, not a shortcut.
 ---
 
 <p align="center">
-  <i>"I don't just use AI tools — I build with them."</i>
+  <i>"Não uso IA como atalho — uso como ferramenta de desenvolvimento."</i>
 </p>
