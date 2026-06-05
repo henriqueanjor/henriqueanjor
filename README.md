@@ -87,10 +87,20 @@ Para mim, desenvolver com IA é uma habilidade técnica essencial, não um atalh
 
 ---
 
-### 🌐 Portfólio Pessoal — *em desenvolvimento*
-> Site pessoal para documentação e apresentação de projetos.
+### 🌐 Portfólio Pessoal — *em desenvolvimento* — [ver repositório](https://github.com/henriqueanjor)
+> Site pessoal com foco técnico — construído do zero com animações em tempo real via WebGL e Canvas API, sem frameworks ou bibliotecas externas.
 
-**Stack:** HTML · CSS · JavaScript
+**O problema:** portfólios genéricos não demonstram habilidade técnica real. O objetivo foi construir algo que fosse, em si mesmo, uma prova de competência.
+
+**O que está sendo construído:**
+- Renderização em tempo real com **WebGL** — shaders customizados escritos em GLSL para efeitos visuais interativos
+- Animações e partículas com **Canvas API** — loop de animação com `requestAnimationFrame` otimizado para 60fps
+- Lógica de interação responsiva ao mouse/touch com cálculos vetoriais em JavaScript puro
+- Arquitetura modular sem frameworks — separação clara entre renderização, lógica e estado
+- Layout responsivo com CSS puro, sem dependência de bibliotecas externas
+- Código semântico, organizado e com boas práticas de performance no browser
+
+**Stack:** HTML · CSS · JavaScript · Canvas API · WebGL · GLSL
 
 ---
 
