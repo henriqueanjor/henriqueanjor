@@ -193,7 +193,9 @@ Previsão de conclusão: 2027
 
 <p align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=henriqueanjor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriqueanjor&layout=compact&theme=tokyonight"/>
+ 
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=henriqueanjor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+
 </p>
 
 <p align="center">
