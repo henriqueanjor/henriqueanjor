@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Estudante de Ciência da Computação · UNICAP · Recife, PE</b><br/>
-  Desenvolvimento Full Stack · IA aplicada ao desenvolvimento · Backend · Sistemas Web
+  Desenvolvimento Fullstack · Backend · Inteligência Artificial · Visão Computacional
 </p>
 
 <p align="center">
@@ -18,14 +18,16 @@
 
 ## Sobre mim
 
-Sou estudante de Ciência da Computação com foco em desenvolvimento web, backend e IA aplicada.
-Uso **Claude diariamente** como par de desenvolvimento — geração de código, revisão de lógica, discussões de arquitetura e refatoração.
-Para mim, desenvolver com IA é uma habilidade técnica essencial, não um atalho.
+Sou estudante de Ciência da Computação na Universidade Católica de Pernambuco (UNICAP), com foco em desenvolvimento Fullstack, Backend e Inteligência Artificial.
 
-- 🎓 Ciência da Computação · UNICAP · 4º semestre · Recife, PE
-- 🤖 IA no fluxo de dev: Claude (diário), GitHub Copilot, ChatGPT
-- 🔭 Aprofundando agora: **TypeScript · Next.js · PostgreSQL · Prisma · Tailwind CSS**
-- 💬 Fala comigo sobre: PHP, MySQL, REST APIs, Git, visão computacional em C++
+Tenho experiência prática em projetos envolvendo sistemas web, APIs REST, bancos de dados, visão computacional e integração de IA. Gosto de transformar problemas reais em soluções funcionais através de software, sempre buscando escrever código limpo, organizado e de fácil manutenção.
+
+Atualmente busco oportunidades para aplicar meus conhecimentos em ambientes de desenvolvimento profissional e continuar evoluindo como engenheiro de software.
+
+- 🎓 Ciência da Computação · UNICAP · 4º período
+- 💻 Desenvolvimento Fullstack e Backend
+- 🤖 Projetos com IA, YOLOv5 e Visão Computacional
+- 🔧 Python · Java · PHP · JavaScript · SQL
 - 📫 ldl.anjos228.lha@gmail.com
 
 ---
@@ -33,87 +35,157 @@ Para mim, desenvolver com IA é uma habilidade técnica essencial, não um atalh
 ## Stack de Tecnologias
 
 ### Linguagens
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,php,java,cpp,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,java,php,js,cpp" />
 </p>
 
 ### Frontend
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
+  <img src="https://skillicons.dev/icons?i=react,html,css" />
 </p>
 
 ### Backend & Banco de Dados
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,mysql,postgres,prisma" />
+  <img src="https://skillicons.dev/icons?i=nodejs,mysql,postgresql" />
 </p>
 
-### Ferramentas & Infra
+### IA & Visão Computacional
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python" />
+</p>
+
+<p align="center">
+YOLOv5 • OpenCV • Stockfish
+</p>
+
+### Ferramentas
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker" />
 </p>
 
 ---
 
-## Projetos
+# Projetos
 
-### 🐾 Sistema Web de Adoção de Pets — [ver repositório](https://github.com/henriqueanjor)
-> Sistema web completo para cadastro e adoção de animais, desenvolvido em equipe com metodologia colaborativa.
+## 🐾 Sistema Web de Adoção de Pets
 
-**O problema:** ONGs e protetores independentes não têm uma plataforma simples para divulgar animais disponíveis para adoção e receber solicitações de forma organizada.
+Sistema Fullstack para cadastro e adoção de animais desenvolvido em equipe.
 
-**O que foi construído:**
-- Cadastro completo de animais com fotos, descrição e status de disponibilidade
-- Sistema de autenticação com controle de acesso por perfil (administrador / adotante)
-- Operações CRUD completas com validação no backend
-- Formulário de solicitação de adoção integrado ao banco de dados
-- Fluxo colaborativo com Git — branches, pull requests e revisão de código em equipe
+### Funcionalidades
 
-**Stack:** PHP · MySQL · HTML · CSS · JavaScript · Git
+- Autenticação de usuários e administradores
+- Cadastro e gerenciamento de animais
+- CRUD completo integrado ao banco de dados
+- Filtros por espécie, porte e gênero
+- Controle de adoções e gerenciamento de usuários
 
----
+### Tecnologias
 
-### ⚡ Sistema de Processamento Visual com GPU — [ver repositório](https://github.com/henriqueanjor)
-> Aplicação de alto desempenho para análise visual em tempo real, com foco em processamento paralelo e otimização de pipeline.
-
-**O problema:** Processamento de imagens em CPU tem limitações claras de desempenho para análise visual em tempo real — latência alta e gargalos em pipelines com múltiplos frames.
-
-**O que foi construído:**
-- Migração de workload computacional de CPU para GPU, com ganho significativo de desempenho
-- Pipeline de processamento de imagem com paralelismo — múltiplos frames processados simultaneamente
-- Integração direta com hardware para leitura e saída de dados visuais
-- Otimização de memória e throughput com foco em arquitetura limpa e código reutilizável
-
-**Stack:** C++ · Visão Computacional · Processamento GPU · Programação Paralela
+PHP • MySQL • HTML • CSS • JavaScript • Git
 
 ---
 
-### 🌐 Portfólio Pessoal — *em desenvolvimento* — [ver repositório](https://github.com/henriqueanjor)
-> Site pessoal com foco técnico — construído do zero com animações em tempo real via WebGL e Canvas API, sem frameworks ou bibliotecas externas.
+## 👁️ Sistema de Visão Computacional com YOLOv5
 
-**O problema:** portfólios genéricos não demonstram habilidade técnica real. O objetivo foi construir algo que fosse, em si mesmo, uma prova de competência.
+Projeto de detecção de objetos em tempo real utilizando Inteligência Artificial.
 
-**O que está sendo construído:**
-- Renderização em tempo real com **WebGL** — shaders customizados escritos em GLSL para efeitos visuais interativos
-- Animações e partículas com **Canvas API** — loop de animação com `requestAnimationFrame` otimizado para 60fps
-- Lógica de interação responsiva ao mouse/touch com cálculos vetoriais em JavaScript puro
-- Arquitetura modular sem frameworks — separação clara entre renderização, lógica e estado
-- Layout responsivo com CSS puro, sem dependência de bibliotecas externas
-- Código semântico, organizado e com boas práticas de performance no browser
+### Funcionalidades
 
-**Stack:** HTML · CSS · JavaScript · Canvas API · WebGL · GLSL
+- Treinamento e implementação de modelos YOLOv5
+- Detecção de objetos em imagens e vídeo
+- Integração com OpenCV
+- Processamento acelerado por GPU
+- Avaliação e validação de modelos
+
+### Tecnologias
+
+Python • YOLOv5 • OpenCV • GPU Computing
 
 ---
 
-## O que estou aprendendo agora
+## ♟️ Motor de Xadrez com IA
+
+Cliente de xadrez integrado ao Stockfish para análise de partidas e jogadas.
+
+### Funcionalidades
+
+- Integração com engine Stockfish
+- Controle de dificuldade
+- Validação automática de movimentos
+- Análise de posições em tempo real
+- Interface gráfica interativa
+
+### Tecnologias
+
+Python • Stockfish • UCI
+
+---
+
+## 💰 Open Finance — Integração de APIs Financeiras
+
+Sistema acadêmico para agregação e visualização de dados financeiros.
+
+### Funcionalidades
+
+- Consumo de múltiplas APIs financeiras
+- Dashboard para exibição de dados
+- Tratamento de erros e autenticação
+- Organização modular do sistema
+- Desenvolvimento colaborativo com Git
+
+### Tecnologias
+
+Java • PHP • REST APIs • MySQL
+
+---
+
+## 🍎 Ryzentosh — Hackintosh com OpenCore
+
+Projeto pessoal de instalação e configuração do macOS em hardware AMD Ryzen.
+
+### Funcionalidades
+
+- Configuração completa do OpenCore
+- Resolução de incompatibilidades de hardware
+- Ajuste de drivers e inicialização do sistema
+- Utilização de documentação técnica avançada
+
+### Tecnologias
+
+OpenCore • macOS • Hardware • Linux
+
+---
+
+## Formação Acadêmica
+
+🎓 **Bacharelado em Ciência da Computação**  
+Universidade Católica de Pernambuco (UNICAP)  
+Previsão de conclusão: 2027
+
+---
+
+## Certificações
+
+- CS50: Introduction to Computer Science — Harvard University
+- CS50: Introduction to AI with Python — Harvard University
+- Generative AI Specialization
+
+---
+
+## Atualmente estudando
 
 | Área | Tecnologias |
-|------|-------------|
-| Full Stack | Next.js 14 (App Router) · TypeScript · React |
-| Banco de Dados | PostgreSQL · Prisma · Drizzle ORM |
-| Autenticação & Validação | next-auth · JWT · Zod |
-| Integrações | Stripe · REST APIs · LLMs (Claude, OpenAI) |
-| Testes | Vitest · Playwright · Testing Library |
-| Infra | Docker · GitHub Actions |
+|--------|--------|
+| Backend | Java · APIs REST |
+| Frontend | React |
+| Banco de Dados | MySQL · PostgreSQL |
+| Inteligência Artificial | YOLOv5 · OpenCV |
+| Ferramentas | Git · GitHub · Linux · Docker |
 
 ---
 
@@ -123,12 +195,7 @@ Para mim, desenvolver com IA é uma habilidade técnica essencial, não um atalh
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=henriqueanjor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriqueanjor&layout=compact&theme=tokyonight"/>
 </p>
+
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=henriqueanjor&theme=tokyonight"/>
-</p>
-
----
-
-<p align="center">
-  <i>"Não uso IA como atalho — uso como ferramenta de desenvolvimento."</i>
 </p>
