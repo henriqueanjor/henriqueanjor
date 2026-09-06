@@ -1,8 +1,8 @@
 <h1 align="center">Luiz Henrique dos Anjos Rodrigues</h1>
 
 <p align="center">
-  <b>Estudante de Ciência da Computação · UNICAP · Recife, PE</b><br/>
-  Desenvolvimento Fullstack · Backend · Inteligência Artificial · Visão Computacional
+  <b>Desenvolvedor Back-end · Java · AWS · Infraestrutura e Redes</b><br/>
+  3 anos de experiência em tecnologia · Recife, PE
 </p>
 
 <p align="center">
@@ -16,186 +16,128 @@
 
 ---
 
-## Sobre mim
+## Sobre
 
-Sou estudante de Ciência da Computação na Universidade Católica de Pernambuco (UNICAP), com foco em desenvolvimento Fullstack, Backend e Inteligência Artificial.
+A maioria dos desenvolvedores nunca configurou uma rota. Eu passei um ano configurando PPPoE, endereçamento IP e diagnosticando falhas de conexão de assinantes reais — e dois anos antes disso escrevendo código que rodava em produção.
 
-Tenho experiência prática em projetos envolvendo sistemas web, APIs REST, bancos de dados, visão computacional e integração de IA. Gosto de transformar problemas reais em soluções funcionais através de software, sempre buscando escrever código limpo, organizado e de fácil manutenção.
+**Connect (2023–2025), desenvolvedor CLT.** Equipe de 3 pessoas responsável pelo aplicativo iOS e pelo site da empresa: telas em Swift/UIKit, integração com APIs REST internas, correção de bugs reportados por usuários e apoio à operação em AWS (EC2 e S3).
 
-Atualmente busco oportunidades para aplicar meus conhecimentos em ambientes de desenvolvimento profissional e continuar evoluindo como engenheiro de software.
+**Suporte técnico N1/N2 (jun/2025–jun/2026), remoto.** Assinantes de banda larga sob metas de SLA: configuração de CPE, PPPoE, Wi-Fi, diagnóstico de conectividade e abertura de ordens de serviço.
 
-- 🎓 Ciência da Computação · UNICAP · 4º período
-- 💻 Desenvolvimento Fullstack e Backend
-- 🤖 Projetos com IA, YOLOv5 e Visão Computacional
-- 🔧 Python · Java · PHP · JavaScript · SQL
-- 📫 ldl.anjos228.lha@gmail.com
+Hoje meu foco é **back-end em Java com Spring Boot**. Em paralelo, trabalho com visão computacional — e com um tipo de problema que aparece bastante nos meus projetos: fazer software rodar em hardware que não foi feito pra ele.
+
+📫 ldl.anjos228.lha@gmail.com
 
 ---
 
-## Stack de Tecnologias
+## Stack
 
-### Linguagens
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,php,js,cpp" />
-</p>
-
-### Frontend
+**Uso no dia a dia**
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,html,css" />
+  <img src="https://skillicons.dev/icons?i=java,python,mysql,git,github,linux" />
 </p>
 
-### Backend & Banco de Dados
+`Java` · `Python` · `API REST` · `SQL / MySQL` · `AWS (EC2, S3)` · `Linux` · `Git`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,mysql,postgresql" />
-</p>
+**Também trabalhei com**
 
-### IA & Visão Computacional
+`Swift / UIKit` · `PHP` · `JavaScript` · `C++` · `SQLite`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python" />
-</p>
+**Estudando agora**
 
-<p align="center">
-YOLOv5 • OpenCV • Stockfish
-</p>
-
-### Ferramentas
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker" />
-</p>
+`Spring Boot` · `Docker` · `PostgreSQL`
 
 ---
 
 # Projetos
 
-## 🐾 Sistema Web de Adoção de Pets
+## Inferência YOLO acelerada por GPU em hardware AMD
 
-Sistema Fullstack para cadastro e adoção de animais desenvolvido em equipe.
+Detecção de objetos em tempo real rodando com aceleração por GPU em placa AMD.
 
-### Funcionalidades
+**O problema:** praticamente todo o ecossistema de deep learning assume NVIDIA e CUDA. Em hardware AMD o caminho padrão não funciona, e a alternativa comum é cair para CPU, com perda severa de desempenho.
 
-- Autenticação de usuários e administradores
-- Cadastro e gerenciamento de animais
-- CRUD completo integrado ao banco de dados
+**A solução:** exportar o modelo YOLO para o formato ONNX e executá-lo via ONNX Runtime com o *execution provider* DirectML, que expõe a GPU AMD através da API do DirectX.
+
+- Exportação e validação do grafo ONNX, verificando compatibilidade de operadores com o execution provider
+- Pipeline de inferência mantendo os tensores residentes em VRAM entre frames, evitando cópias entre memória de sistema e GPU
+- Pré-processamento próprio: letterbox resize e normalização, alinhados ao formato de entrada do modelo exportado
+- Pós-processamento com decodificação das saídas e non-maximum suppression (NMS)
+- Captura e exibição em tempo real com OpenCV
+
+`Python` · `ONNX Runtime` · `DirectML` · `OpenCV` · `YOLO`
+
+---
+
+## API REST de Ordens de Serviço — *em construção*
+
+API para gestão de chamados técnicos de provedor de internet, modelada a partir do fluxo que eu operava no suporte: cliente, chamado, prioridade, status e técnico responsável.
+
+- Arquitetura em camadas: controller, service e repositório
+- Persistência relacional com JPA
+- Injeção de dependência e validação de entrada
+- Tratamento centralizado de erros com respostas HTTP consistentes
+
+`Java` · `Spring Boot` · `MySQL`
+
+---
+
+## Ryzentosh — macOS em hardware AMD Ryzen
+
+Instalação e configuração completa do macOS em hardware não suportado, via OpenCore.
+
+- Configuração do bootloader e da ACPI, com patches para compatibilidade da plataforma AMD
+- Resolução de incompatibilidades de kernel e drivers
+- Diagnóstico de falhas de inicialização a partir de logs de boot
+
+`OpenCore` · `macOS` · `ACPI` · `Hardware`
+
+---
+
+## Motor de Xadrez com integração ao Stockfish
+
+Cliente de xadrez com análise de partidas em tempo real.
+
+- Comunicação bidirecional via subprocesso com o Stockfish usando o protocolo UCI
+- Envio assíncrono de comandos, mantendo a interface responsiva durante a análise
+- Validação de jogadas incluindo casos especiais: roque, en passant e promoção de peão
+- Controle de nível de dificuldade
+
+`Python` · `Stockfish` · `UCI`
+
+---
+
+## Open Finance — Agregação de APIs Financeiras
+
+Camada de agregação que consome múltiplas APIs públicas e unifica os dados.
+
+- Normalização de esquemas heterogêneos em um único modelo de dados
+- Tratamento de erros com retry e fallback para timeouts e indisponibilidade de serviço
+- Autenticação e organização modular
+
+`Java` · `PHP` · `APIs REST` · `MySQL`
+
+---
+
+## Sistema Web de Adoção de Pets
+
+Sistema full-stack desenvolvido em equipe, com controle de acesso por perfil.
+
+- Autenticação separada para usuário e administrador
+- CRUD completo com consultas parametrizadas, prevenindo SQL injection
 - Filtros por espécie, porte e gênero
-- Controle de adoções e gerenciamento de usuários
 
-### Tecnologias
-
-PHP • MySQL • HTML • CSS • JavaScript • Git
+`PHP` · `MySQL` · `HTML` · `CSS` · `JavaScript`
 
 ---
 
-## 👁️ Sistema de Visão Computacional com YOLOv5
+## Formação
 
-Projeto de detecção de objetos em tempo real utilizando Inteligência Artificial.
+**Bacharelado em Ciência da Computação** — Universidade Católica de Pernambuco (UNICAP)  
+Previsão de conclusão: 2029
 
-### Funcionalidades
-
-- Treinamento e implementação de modelos YOLOv5
-- Detecção de objetos em imagens e vídeo
-- Integração com OpenCV
-- Processamento acelerado por GPU
-- Avaliação e validação de modelos
-
-### Tecnologias
-
-Python • YOLOv5 • OpenCV • GPU Computing
-
----
-
-## ♟️ Motor de Xadrez com IA
-
-Cliente de xadrez integrado ao Stockfish para análise de partidas e jogadas.
-
-### Funcionalidades
-
-- Integração com engine Stockfish
-- Controle de dificuldade
-- Validação automática de movimentos
-- Análise de posições em tempo real
-- Interface gráfica interativa
-
-### Tecnologias
-
-Python • Stockfish • UCI
-
----
-
-## 💰 Open Finance — Integração de APIs Financeiras
-
-Sistema acadêmico para agregação e visualização de dados financeiros.
-
-### Funcionalidades
-
-- Consumo de múltiplas APIs financeiras
-- Dashboard para exibição de dados
-- Tratamento de erros e autenticação
-- Organização modular do sistema
-- Desenvolvimento colaborativo com Git
-
-### Tecnologias
-
-Java • PHP • REST APIs • MySQL
-
----
-
-## 🍎 Ryzentosh — Hackintosh com OpenCore
-
-Projeto pessoal de instalação e configuração do macOS em hardware AMD Ryzen.
-
-### Funcionalidades
-
-- Configuração completa do OpenCore
-- Resolução de incompatibilidades de hardware
-- Ajuste de drivers e inicialização do sistema
-- Utilização de documentação técnica avançada
-
-### Tecnologias
-
-OpenCore • macOS • Hardware • Linux
-
----
-
-## Formação Acadêmica
-
-🎓 **Bacharelado em Ciência da Computação**  
-Universidade Católica de Pernambuco (UNICAP)  
-Previsão de conclusão: 2027
-
----
-
-## Certificações
-
-- CS50: Introduction to Computer Science — Harvard University
-- CS50: Introduction to AI with Python — Harvard University
-- Generative AI Specialization
-
----
-
-## Atualmente estudando
-
-| Área | Tecnologias |
-|--------|--------|
-| Backend | Java · APIs REST |
-| Frontend | React |
-| Banco de Dados | MySQL · PostgreSQL |
-| Inteligência Artificial | YOLOv5 · OpenCV |
-| Ferramentas | Git · GitHub · Linux · Docker |
-
----
-
-## Estatísticas do GitHub
-
-<p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=henriqueanjor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=henriqueanjor&theme=tokyonight"/>
-</p>
+**Certificações**
+- CS50x: Introduction to Computer Science — Harvard University (edX)
+- CS50 AI: Introduction to Artificial Intelligence with Python — Harvard University (edX)
+- Especialização em Inteligência Artificial Generativa
