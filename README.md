@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Desenvolvedor Back-end · Java · AWS · Infraestrutura e Redes</b><br/>
-  3 anos de experiência em tecnologia · Recife, PE
+  3 anos de experiência em tecnologia no geral, tanto em desenvolvimento como assistencia de TI · Recife, PE
 </p>
 
 <p align="center">
